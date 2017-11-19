@@ -29,15 +29,15 @@ requirements:
     - pkg-config
     - givaro
     - gsl
-    - gmp >=5.0.1,<7
+    - gmp 6.1.*
     - blas 1.1 {{ variant }}
-    - openblas 0.2.19|0.2.19.*
+    - openblas 0.2.20|0.2.20.*
   run:
     - givaro
     - gsl
-    - gmp >=5.0.1,<7
+    - gmp >=6.1,<7
     - blas 1.1 {{ variant }}
-    - openblas 0.2.19|0.2.19.*
+    - openblas 0.2.20|0.2.20.*
 
 test:
   commands:
