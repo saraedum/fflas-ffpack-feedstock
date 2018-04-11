@@ -22,13 +22,13 @@ requirements:
     - toolchain
     - libtool
     - pkg-config
-    - givaro
+    - givaro >=4.0.3,<5
     - gsl
     - gmp 6.1.*
     - blas 1.1 {{ variant }}
     - openblas 0.2.20|0.2.20.*
   run:
-    - givaro
+    - givaro >=4.0.3,<5
     - gsl
     - gmp >=6.1,<7
     - blas 1.1 {{ variant }}
