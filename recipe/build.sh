@@ -24,6 +24,7 @@ chmod +x configure
     --disable-avx \
     --disable-fma \
     --disable-fma4
+cat config.log
 
 make -j${CPU_COUNT}
 
