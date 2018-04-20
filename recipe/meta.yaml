@@ -29,6 +29,7 @@ requirements:
     - gmp 6.1.*
     - blas 1.1 {{ variant }}
     - openblas 0.2.20|0.2.20.*
+    - automake
   run:
     - givaro >=4.0.3,<5
     - gsl
